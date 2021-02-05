@@ -2,187 +2,187 @@
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
     <Fragment>
         <DirectoryRef Id="INSTALLFOLDER">
-            <Component Id="cmpA0863526952F7834E7C922F065E4C8A8" Guid="{C5B8AB10-AAA5-4822-BCB3-1891885F4111}">
+            <Component Id="cmpA0863526952F7834E7C922F065E4C8A8" Guid="{4899C790-FB0E-41FF-9EDD-2CB02CC6094D}">
                 <File Id="filC04B02D0CCC2D5CCC1013B35DE86DB29" KeyPath="yes" Source="$(var.BasePath)\appsettings.Development.json" />
             </Component>
-            <Component Id="cmpF82FCA80BBAF44D285C97F10993DEEE6" Guid="{46973265-4449-4C06-A2C1-60C9F4530FB3}">
+            <Component Id="cmpF82FCA80BBAF44D285C97F10993DEEE6" Guid="{ABC1A9D4-AE84-426E-BCF7-2BAFAA11D2FD}">
                 <File Id="fil840B80AC19861C7F9F04FBDCFAE331CE" KeyPath="yes" Source="$(var.BasePath)\appsettings.json" />
             </Component>
-            <Component Id="cmp3C0B1EB69438AF69183D8F1A6E078CBC" Guid="{3C12EE47-EC8F-4408-9948-2EAECD94A44D}">
+            <Component Id="cmp3C0B1EB69438AF69183D8F1A6E078CBC" Guid="{EB4915AA-B14D-4660-B841-C9CD5E104B75}">
                 <File Id="filF2A325C9783DD1657CE37030879C317E" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.deps.json" />
             </Component>
-            <Component Id="cmp4606D6B7C908E4339663BC76505DB540" Guid="{F67615DC-A3D8-4864-8EAE-DAD4C22EFB43}">
+            <Component Id="cmp4606D6B7C908E4339663BC76505DB540" Guid="{F47FD7C2-E8F7-40EB-B408-B774150B5C58}">
                 <File Id="fil0166643A2DF9C621363A6FDF673611AE" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.dll" />
             </Component>
-            <Component Id="cmp6A1B1A7F6C90D790C5723BC13E858617" Guid="{01466812-B4BA-45BB-BF47-CE4E163EE2ED}">
+            <Component Id="cmp6A1B1A7F6C90D790C5723BC13E858617" Guid="{EB0215BC-50FE-44B3-B0EB-3699A73D8F9D}">
                 <File Id="fil402EE446365735CBF11E1898E92251D0" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.pdb" />
             </Component>
-            <Component Id="cmp077B085F20E3D360B5127DF818C9B1ED" Guid="{CDFA5257-A77A-4140-B00B-08885451ADCA}">
+            <Component Id="cmp077B085F20E3D360B5127DF818C9B1ED" Guid="{23C3BDE7-6218-4295-AA2C-9635F61A5746}">
                 <File Id="filD7F378B534F6AE4E6E5654C49EB9642F" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.runtimeconfig.json" />
             </Component>
-            <Component Id="cmpACEF2522398DB680D7C819A2155A9505" Guid="{FDA04552-E400-4D72-9E69-597E78EFF354}">
+            <Component Id="cmpACEF2522398DB680D7C819A2155A9505" Guid="{1B7650CE-871C-4780-8930-4CDB011EC9B9}">
                 <File Id="filB73C61CC020E0E67901E7FF54C85711C" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.Services.dll" />
             </Component>
-            <Component Id="cmp68393B99D6B32A871BCD07232CC24BEA" Guid="{0B5B9F69-74F5-48D2-BB6B-98398DBE72E6}">
+            <Component Id="cmp68393B99D6B32A871BCD07232CC24BEA" Guid="{56DC7876-06D3-46CF-AA14-E57EABDFCDF6}">
                 <File Id="filE7CC83712912EAB2EF40F913E1A609BC" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.Services.pdb" />
             </Component>
-            <Component Id="cmp33290BD9C3F98841CAD5AA61D5DFED0B" Guid="{F5283A78-B3F4-493D-863A-41154E245832}">
+            <Component Id="cmp33290BD9C3F98841CAD5AA61D5DFED0B" Guid="{D352C6D4-69F9-451F-B2FE-945A5034F7A1}">
                 <File Id="fil50B2A95A335465C608BC72892C359589" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.Views.dll" />
             </Component>
-            <Component Id="cmp263C1529E80A47E3EEEC8FF56E93FEC3" Guid="{6A8D4492-3C81-45DE-8F20-72DF66F5CAEA}">
+            <Component Id="cmp263C1529E80A47E3EEEC8FF56E93FEC3" Guid="{847C1A55-658E-4CEF-8EFC-4BD31B008AC4}">
                 <File Id="fil86468220FCFEC878EF02042B6EBC9476" KeyPath="yes" Source="$(var.BasePath)\JenkinsIntegration.Views.pdb" />
             </Component>
-            <Component Id="cmpB139B49DF4DF8F44C525B449EA8187F7" Guid="{A9612C87-163A-4E42-B91B-BEB3A64FD5D1}">
+            <Component Id="cmpB139B49DF4DF8F44C525B449EA8187F7" Guid="{9B93E60A-CA00-423A-86CA-EC1A964C9944}">
                 <File Id="filE7A3E65CC622C2E3B9B57707B12C9645" KeyPath="yes" Source="$(var.BasePath)\web.config" />
             </Component>
             <Directory Id="dir3D83A529A2122889D4016E7D784625D5" Name="wwwroot">
-                <Component Id="cmp6A573805E6F545A7F37C18527646950E" Guid="{C68A5E7D-CB9C-4887-A85E-658717218319}">
+                <Component Id="cmp6A573805E6F545A7F37C18527646950E" Guid="{409AE426-3609-4564-8749-A7A00DB22502}">
                     <File Id="fil4340641EF92B44F5306114E3F1D36462" KeyPath="yes" Source="$(var.BasePath)\wwwroot\favicon.ico" />
                 </Component>
                 <Directory Id="dirED733C34DE106D43E47F9049837C7E99" Name="css">
-                    <Component Id="cmp12B9D607187CDD783A1A63405FC28A2E" Guid="{54374D16-356F-4CCC-B00E-EFF66CBE34DC}">
+                    <Component Id="cmp12B9D607187CDD783A1A63405FC28A2E" Guid="{3FA693EF-E08C-4D61-8BD1-FEADDDF3B5E8}">
                         <File Id="filFC614BE10848B4F8BDFCDFF8066F8E14" KeyPath="yes" Source="$(var.BasePath)\wwwroot\css\site.css" />
                     </Component>
-                    <Component Id="cmp8D23AA4485ACFD34B02A65C34A50A767" Guid="{548CC022-8AB6-4C2B-A2DA-CDB3B67949AC}">
+                    <Component Id="cmp8D23AA4485ACFD34B02A65C34A50A767" Guid="{101125D7-E95E-4D4C-9B03-B041935D6F1B}">
                         <File Id="filB3FEE57EA80867C2828A20994BF12F9C" KeyPath="yes" Source="$(var.BasePath)\wwwroot\css\site.min.css" />
                     </Component>
                 </Directory>
                 <Directory Id="dir5BFD9B5CCCE858231268B738DD1684A0" Name="images">
-                    <Component Id="cmp5EFC59048A37FDEA43E6F43B4283C777" Guid="{AA577395-AFF9-452F-88E5-69EA0173C3EF}">
+                    <Component Id="cmp5EFC59048A37FDEA43E6F43B4283C777" Guid="{121048F4-DC7B-4FD1-9E80-29F505B699DF}">
                         <File Id="filC1F57146C411DE77BB8907DDD5B2EF16" KeyPath="yes" Source="$(var.BasePath)\wwwroot\images\banner1.svg" />
                     </Component>
-                    <Component Id="cmpF2828EC0A1F9851D098DF22211BD6605" Guid="{B0E3B9F1-7643-4E84-B740-942DF837A0DA}">
+                    <Component Id="cmpF2828EC0A1F9851D098DF22211BD6605" Guid="{C932F317-B265-4119-9CAF-D6A6B57B78E6}">
                         <File Id="filFD90D6426E6A65528FC96DEFF4352B0D" KeyPath="yes" Source="$(var.BasePath)\wwwroot\images\banner2.svg" />
                     </Component>
-                    <Component Id="cmpD940753E2959179B7A42F8C5CF90AEB6" Guid="{19CA0776-484C-4368-94AE-9248D76096F5}">
+                    <Component Id="cmpD940753E2959179B7A42F8C5CF90AEB6" Guid="{5F5B70D6-3EDE-4A01-90A2-7EFE4B133611}">
                         <File Id="filFC35ECAB8E4E95EF4C744324541A9BC4" KeyPath="yes" Source="$(var.BasePath)\wwwroot\images\banner3.svg" />
                     </Component>
                 </Directory>
                 <Directory Id="dirFA58F40E6724D998B95F259B94637964" Name="js">
-                    <Component Id="cmpF796919A01BB4F3B75E73CD304AC3058" Guid="{F985320F-5B17-408F-B63D-3FF13BB13622}">
+                    <Component Id="cmpF796919A01BB4F3B75E73CD304AC3058" Guid="{453BB491-3E29-4A30-9DC7-2C426B28196C}">
                         <File Id="filA732A66749B01E2D1518005007DFF33F" KeyPath="yes" Source="$(var.BasePath)\wwwroot\js\site.js" />
                     </Component>
-                    <Component Id="cmpA653D943D24E5BDF06C6B19288D5C3E0" Guid="{C7E4D45D-B019-4C8E-A807-130408B29041}">
+                    <Component Id="cmpA653D943D24E5BDF06C6B19288D5C3E0" Guid="{5D14F704-164E-4B39-8CFC-B5B318965847}">
                         <File Id="fil59F0453F2BBF6301422D1EA6B9EAB5CC" KeyPath="yes" Source="$(var.BasePath)\wwwroot\js\site.min.js" />
                     </Component>
                 </Directory>
                 <Directory Id="dir22B9546226AFCFD51C2FF4E52E5C3F6C" Name="lib">
                     <Directory Id="dirE8974B0E9FF1E04B3FB97B5FA51DFC1D" Name="bootstrap">
-                        <Component Id="cmpDF17EA9D798645C0201B1E6B5D2CA9EF" Guid="{219F04ED-33D4-4878-912E-B84AF21F1830}">
+                        <Component Id="cmpDF17EA9D798645C0201B1E6B5D2CA9EF" Guid="{D87F5F43-B278-4A51-8F1E-310ED5B73068}">
                             <File Id="fil9C32ED40C45521E02946A19CF04DE01C" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\.bower.json" />
                         </Component>
-                        <Component Id="cmpD45638CB577EFFE13312C0FCB388C0C3" Guid="{4FCE6818-D64C-4844-96ED-280C72654AF7}">
+                        <Component Id="cmpD45638CB577EFFE13312C0FCB388C0C3" Guid="{441E4468-C348-4EFD-95D7-E774E6106478}">
                             <File Id="fil53C43CB91E1284E051F10BCC7FD7E81E" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\LICENSE" />
                         </Component>
                         <Directory Id="dirB552364B50A20CAC7EB2183F7887B0FC" Name="dist">
                             <Directory Id="dirB1E57672304271436EB520F48D9CEEBE" Name="css">
-                                <Component Id="cmp14D817DAD2B4FF1EA03E54F894158E92" Guid="{5EB204F7-F45F-4BC8-96A8-E40D47285F22}">
+                                <Component Id="cmp14D817DAD2B4FF1EA03E54F894158E92" Guid="{289E11D3-3A07-4F19-ADD4-9A60F3EF1D18}">
                                     <File Id="fil0A4167D4E116B684B847470F5F34A5B9" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css" />
                                 </Component>
-                                <Component Id="cmp7BECF725C4355D747EC8BA97986280FE" Guid="{F4827B4A-EDE0-4DAB-88E4-2F50FBF3E9EE}">
+                                <Component Id="cmp7BECF725C4355D747EC8BA97986280FE" Guid="{C110A991-4A4E-48C5-A425-88F5C7CA40A0}">
                                     <File Id="filCC1FD3F80C8A43C365847D81E4222D76" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map" />
                                 </Component>
-                                <Component Id="cmp467D0C658E526173BE8875C03DA3337E" Guid="{933022FB-DD53-4578-B535-6DDFC10A3280}">
+                                <Component Id="cmp467D0C658E526173BE8875C03DA3337E" Guid="{5A04C9D1-27DC-477D-8005-4E99B461BF93}">
                                     <File Id="fil254AE57117C5E46A0887A2457E49622A" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css" />
                                 </Component>
-                                <Component Id="cmpCD60B90DBE1B47B96CEF7DF75A68862C" Guid="{40583416-62B2-4ABE-8509-748ACB1C23FB}">
+                                <Component Id="cmpCD60B90DBE1B47B96CEF7DF75A68862C" Guid="{8AA4C7C8-6397-4B7D-A96E-5C2333E603D0}">
                                     <File Id="fil8A177091389197CAED93B9FB45F4C8C6" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map" />
                                 </Component>
-                                <Component Id="cmpCFEAFD5B1BED0635295A3218C2BCC1B6" Guid="{05A95411-4D93-442D-AF9E-A79F79125FC4}">
+                                <Component Id="cmpCFEAFD5B1BED0635295A3218C2BCC1B6" Guid="{735A241A-7F0A-4DD1-BEBC-D3BBE7753722}">
                                     <File Id="fil9F238EF32DA8366B8672FFCDED87B3AF" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap.css" />
                                 </Component>
-                                <Component Id="cmp50220C1160DFB99416BFE3AEAD636ABB" Guid="{451927AB-E9C5-4C8C-B329-F8CC0C749BA6}">
+                                <Component Id="cmp50220C1160DFB99416BFE3AEAD636ABB" Guid="{060B3518-7D23-488A-9C8A-D24C4FB5EAC0}">
                                     <File Id="fil2752C5F38824DA49A7A8E9508FFCDEDA" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map" />
                                 </Component>
-                                <Component Id="cmp482924B6A36354F67FB7975DB65443EB" Guid="{8F4F8FBC-8DED-4AAB-8F89-882F7F5AB88E}">
+                                <Component Id="cmp482924B6A36354F67FB7975DB65443EB" Guid="{B53885CE-0815-4DE9-9863-89173CAE6401}">
                                     <File Id="filAFD8E931C620F4E75441A56E2B1756AB" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css" />
                                 </Component>
-                                <Component Id="cmpF47B69A6298B9390BD1AF2902E1DF13D" Guid="{B9617E2C-C2C9-4162-A383-C383C7A8B04F}">
+                                <Component Id="cmpF47B69A6298B9390BD1AF2902E1DF13D" Guid="{AE452012-B4D1-4D6C-BAE5-219BC242CF78}">
                                     <File Id="fil01EE55BA932A69537A91F99A8325F5D2" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map" />
                                 </Component>
                             </Directory>
                             <Directory Id="dir7C834B2B6E94FE880F13D29DD8BE2373" Name="fonts">
-                                <Component Id="cmp50803F63644F2096B57AE1AC53F7A156" Guid="{BF99E0A0-4E3E-491E-A7D1-0D0843E14B8C}">
+                                <Component Id="cmp50803F63644F2096B57AE1AC53F7A156" Guid="{083B30EA-AE83-4037-8A91-63D687C3AC2A}">
                                     <File Id="filE68A76BFD46CE3505B414222399F5B12" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" />
                                 </Component>
-                                <Component Id="cmp160604AB0365525768678F1C13639611" Guid="{BEF55E92-E2B3-4EF7-9154-29BC08C76374}">
+                                <Component Id="cmp160604AB0365525768678F1C13639611" Guid="{2CED7AC2-2D97-4787-913D-CF8666D904A8}">
                                     <File Id="fil31D4D516C573A20A79B1A5CB379F41DA" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" />
                                 </Component>
-                                <Component Id="cmpACA24DAC0F5D2BED13B2B93630B3F9B7" Guid="{AB92DA99-4355-4857-BA7A-4270307582CE}">
+                                <Component Id="cmpACA24DAC0F5D2BED13B2B93630B3F9B7" Guid="{35A60055-1FE6-40C7-97FA-7034D6DDEA90}">
                                     <File Id="filBC5DFE7B2961D8B0D2FB4DE730145BDA" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" />
                                 </Component>
-                                <Component Id="cmp443A9290E605CEF7D785CB5C7A0A93EB" Guid="{AA6A3A42-A8BD-440D-A8C6-BE2B0C7761A6}">
+                                <Component Id="cmp443A9290E605CEF7D785CB5C7A0A93EB" Guid="{5A5B6267-B253-47F6-B19D-9D6822AEAC22}">
                                     <File Id="fil636847868E525E2141E8D8658FD5490A" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" />
                                 </Component>
-                                <Component Id="cmp6F6A667A2CA6A91C1913AA3463578FB3" Guid="{DF9B248A-B281-4E84-8E2D-5AE9A170BB55}">
+                                <Component Id="cmp6F6A667A2CA6A91C1913AA3463578FB3" Guid="{E8DF72FF-FA42-420A-8749-CC9B99A5C0BA}">
                                     <File Id="fil0C45D4D3DCF6EFC9B4F47066E936242A" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\fonts\glyphicons-halflings-regular.woff2" />
                                 </Component>
                             </Directory>
                             <Directory Id="dir37C1713A8BD36DC432AF5EF6883E127D" Name="js">
-                                <Component Id="cmpD8F47627D4E3776D63519AA6A2B7C088" Guid="{30CCA2F5-884D-4B66-B465-C3505F543941}">
+                                <Component Id="cmpD8F47627D4E3776D63519AA6A2B7C088" Guid="{0E0715D0-B79E-4853-B9C2-21F54EDA26B0}">
                                     <File Id="fil5A8815381748CF66D6784A8866854EF4" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\js\bootstrap.js" />
                                 </Component>
-                                <Component Id="cmpDB932D7B263940454C814AB2B2F641C9" Guid="{732E455C-3576-48BF-8719-E094D9BAFE18}">
+                                <Component Id="cmpDB932D7B263940454C814AB2B2F641C9" Guid="{FCFF3864-D1C5-43C7-9E6F-9437F93094F5}">
                                     <File Id="fil673A44B9CD2CE406913AF98E1CF333DD" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js" />
                                 </Component>
-                                <Component Id="cmp3A37A6BAD1CC1FA14F2D83F78A5F9E8A" Guid="{9E3B57BA-D94D-4F96-81EA-C1C5B3AF703A}">
+                                <Component Id="cmp3A37A6BAD1CC1FA14F2D83F78A5F9E8A" Guid="{E147FC50-E116-416B-924C-F09371FE5EA2}">
                                     <File Id="filCC0FF74D97791AA8CF6705C343A1C998" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\bootstrap\dist\js\npm.js" />
                                 </Component>
                             </Directory>
                         </Directory>
                     </Directory>
                     <Directory Id="dir213EE5C7E870C2065AFDCA70B55604CC" Name="jquery">
-                        <Component Id="cmpFF484996DFFF6FFE0D3FD25CE168A72C" Guid="{3A77A22A-8FF7-472B-8F67-8D6671D8ED40}">
+                        <Component Id="cmpFF484996DFFF6FFE0D3FD25CE168A72C" Guid="{913FD5C6-222B-4F33-8FB1-DDB64E5307DB}">
                             <File Id="filC9040AA6F715AEFC1994AF7C9E499E72" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery\.bower.json" />
                         </Component>
-                        <Component Id="cmpC4A1CA0B6569A317F1E07D84DD8DA70B" Guid="{3A7A9451-FC91-4938-B8A3-AA82D2066949}">
+                        <Component Id="cmpC4A1CA0B6569A317F1E07D84DD8DA70B" Guid="{A8C9A1B6-60BA-49FA-8D67-58D66E196DC8}">
                             <File Id="filAC8D5C234B9AE2978A24E8FEB61D89DF" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery\LICENSE.txt" />
                         </Component>
                         <Directory Id="dirB7B7760E1E5245F05DEDC31D604BB29B" Name="dist">
-                            <Component Id="cmp9831E2660CE1C27BCEACEE557487D9CA" Guid="{EEE4D4ED-4C86-4836-B9BF-4D45572DA7AE}">
+                            <Component Id="cmp9831E2660CE1C27BCEACEE557487D9CA" Guid="{19303314-BBCD-44DB-B0B2-0C23197A01BB}">
                                 <File Id="filE14024869F26D48EA967B9382934F695" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery\dist\jquery.js" />
                             </Component>
-                            <Component Id="cmp2392FA28B5C1165F7129D76B55573E1A" Guid="{CC0F3080-E017-444E-8A5A-F77BC6774A58}">
+                            <Component Id="cmp2392FA28B5C1165F7129D76B55573E1A" Guid="{6575690A-E9D6-48DB-9231-CEA9D63A8859}">
                                 <File Id="filD88F8E654E70C2320004AE4EABB94F81" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery\dist\jquery.min.js" />
                             </Component>
-                            <Component Id="cmp5E8310C72A4EE2106073F78CBB8C9AFB" Guid="{3228ADEC-ED3D-41F6-9669-234D4B32DC87}">
+                            <Component Id="cmp5E8310C72A4EE2106073F78CBB8C9AFB" Guid="{826E725C-D827-477C-BA9C-AA1B915F9DF2}">
                                 <File Id="fil29A314F0795551B26C967B719117B4C0" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery\dist\jquery.min.map" />
                             </Component>
                         </Directory>
                     </Directory>
                     <Directory Id="dir2A52A3533741675585C17B43E6D148C0" Name="jquery-validation">
-                        <Component Id="cmp7326213BDF1A7C42E1B493E3725087F2" Guid="{4317255B-403B-4AFD-8267-C1C08C3DE197}">
+                        <Component Id="cmp7326213BDF1A7C42E1B493E3725087F2" Guid="{AE967E1F-C32A-4BBB-B3E3-A10C751C2C92}">
                             <File Id="fil9E8F112BBB70BD6CD26DE45FCC10EF16" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\.bower.json" />
                         </Component>
-                        <Component Id="cmp978E4C13010125E310928FE0AD90F41D" Guid="{8E30F0F6-9B93-44F9-ACC5-9CA3C3863389}">
+                        <Component Id="cmp978E4C13010125E310928FE0AD90F41D" Guid="{7863A12B-9EBE-4A36-BE9D-AA03E5395DCC}">
                             <File Id="fil3A43B7D6169A855A76876309AF54100F" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\LICENSE.md" />
                         </Component>
                         <Directory Id="dir311C96856433AC7F773B1EABF869025E" Name="dist">
-                            <Component Id="cmp8A75EC2D0F03EF8DAA90C6F40CD14C1C" Guid="{1A3C6FBE-8F7E-4CD3-A785-44FE0486427D}">
+                            <Component Id="cmp8A75EC2D0F03EF8DAA90C6F40CD14C1C" Guid="{667A0072-4C34-48D7-B8EB-44B6F25E582E}">
                                 <File Id="fil4481E8AA9401026A1C628325D17EB047" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\dist\additional-methods.js" />
                             </Component>
-                            <Component Id="cmpAE48BDE5331361E52516AB91C9BA5D8F" Guid="{9B15B79A-EF81-4E71-B82B-8BE2C7C79257}">
+                            <Component Id="cmpAE48BDE5331361E52516AB91C9BA5D8F" Guid="{CBF51CE8-6A36-4399-9832-A9EA654E0300}">
                                 <File Id="filE3C6F6986B34B200D73FFEA5C785D095" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\dist\additional-methods.min.js" />
                             </Component>
-                            <Component Id="cmp409FDCECB40543A8F00FDFCDFBB30274" Guid="{A1532630-768C-4A9F-AA3A-D6DFB558C1E3}">
+                            <Component Id="cmp409FDCECB40543A8F00FDFCDFBB30274" Guid="{B74C06B8-435E-44CC-B035-443E446BC28C}">
                                 <File Id="fil94DAE3EBA4EB48E3757FE08537F7C1DE" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\dist\jquery.validate.js" />
                             </Component>
-                            <Component Id="cmp4C0DCBF1A9CF5075B69DDBE2205D980A" Guid="{92D7CA2D-28C2-48FA-A74E-21D194122F32}">
+                            <Component Id="cmp4C0DCBF1A9CF5075B69DDBE2205D980A" Guid="{E3DED62B-AB1D-42ED-8AE7-F46C665633EC}">
                                 <File Id="fil0C5283B1D599C5FD5941B0768DE3B97E" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js" />
                             </Component>
                         </Directory>
                     </Directory>
                     <Directory Id="dir95E51D1FD73BF1361B42C532D6572D2E" Name="jquery-validation-unobtrusive">
-                        <Component Id="cmp5060D7FF1639F2196AE44A33B151E1EC" Guid="{B9EC1997-7A3F-437D-8D29-79729AA039F8}">
+                        <Component Id="cmp5060D7FF1639F2196AE44A33B151E1EC" Guid="{D07CD3FD-0CC7-418F-8940-2397A1A59C04}">
                             <File Id="fil0300387263277B0532F23D19482CB0C6" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation-unobtrusive\.bower.json" />
                         </Component>
-                        <Component Id="cmp16F5C603416771D7DE966B331AFDA159" Guid="{F35C5F80-79A0-4CBC-BE6D-67FF7D967070}">
+                        <Component Id="cmp16F5C603416771D7DE966B331AFDA159" Guid="{6E6FBF81-0A31-4250-97E9-1CD8D3521D84}">
                             <File Id="fil5B6D29F45F7576151074F1216EA6F568" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js" />
                         </Component>
-                        <Component Id="cmpB31A4AF24D148665C13566899C4A146F" Guid="{26E02DA3-E91E-441A-9690-1EB9E653C130}">
+                        <Component Id="cmpB31A4AF24D148665C13566899C4A146F" Guid="{030847F9-C4A9-4D64-B813-3F0EAD0F6C8A}">
                             <File Id="filA93DAD88B4E58A2D1B7B1CC62738B2C7" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js" />
                         </Component>
-                        <Component Id="cmpB4F63F3D836084F12B1378ED6F4D57B8" Guid="{3ACB3A8F-E1FB-4B92-9DC8-8A3FBB76A096}">
+                        <Component Id="cmpB4F63F3D836084F12B1378ED6F4D57B8" Guid="{773681A0-7B13-4C15-9559-DC3EFF0FF990}">
                             <File Id="fil7E929A59EE39F4F659192B58714A2DC9" KeyPath="yes" Source="$(var.BasePath)\wwwroot\lib\jquery-validation-unobtrusive\LICENSE.txt" />
                         </Component>
                     </Directory>
