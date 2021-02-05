@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Fragment>
+		<Property Id="ROOTDRIVE"><![CDATA[C:\]]></Property>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="Setup" Name="Program Files">
+				<Directory Id="API" Name="API">
+					<Directory Id="INSTALLFOLDER" Name="JenkinsIntegration"></Directory>
+				</Directory>
+			</Directory>
+		</Directory>
+	</Fragment>
+</Wix>

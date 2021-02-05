@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="3C708942-53C5-4059-8068-4DB1A5CAB5FF" Name="JenkinsIntegrationSetup" Language="1033" Version="1.0.0.0" Manufacturer="SB" UpgradeCode="41a8f259-1994-4491-8ca5-eef9aa41e0e3">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Platform="x64" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />
+
+		<Feature Id="ProductFeature" Title="Jenkins Integration Project Setup" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<ComponentGroupRef Id="PublishedComponents"/>
+		</Feature>
+		<UI />
+		<UIRef Id="WixUI_Minimal"/>
+	</Product>
+</Wix>
