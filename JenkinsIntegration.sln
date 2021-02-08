@@ -9,8 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsIntegration.Tests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JenkinsIntegration.Services", "JenkinsIntegration.Services\JenkinsIntegration.Services.csproj", "{DA3246B1-E256-4214-9C13-E21AE2DD5C2E}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "JenkinsIntegrationSetup", "JenkinsIntegrationSetup\JenkinsIntegrationSetup.wixproj", "{D296ABD1-49D9-443B-BF90-45687CF7C148}"
-EndProject
+#Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "JenkinsIntegrationSetup", "JenkinsIntegrationSetup\JenkinsIntegrationSetup.wixproj", "{D296ABD1-49D9-443B-BF90-45687CF7C148}"
+#EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
